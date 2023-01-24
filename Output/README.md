@@ -1,26 +1,25 @@
-[!LicenseBadge](https://img.shields.io/badge/License-MIT License-blue)
-# Test Title
+[!LicenseBadge](https://img.shields.io/badge/License-MIT-blue)
+# Title
 
 ## Description
-Test description.
+Description
 
 ## Installation
-Test installation instructions.
+Instructions
 
 ## Usage
-Test uses.
+Uses
 
 ## Contributing
-Test contribution instructions.
+Yes
 
 ## Tests
-Test 'test' examples.
+Yes
 
 ## License
-MIT License
+MIT
 
 ## Questions
 Email
-
+Email: djohncaldwelL@gmail.com
 [My GitHub](https://github.com/CaldwellDerek)
-[My Email](djohncaldwell@gmail.com)

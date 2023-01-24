@@ -58,9 +58,8 @@ ${license}
 
 ## Questions
 ${questions}
-
-[My GitHub](https://github.com/${username})
-[My Email](${email})`;
+Email: ${email}
+[My GitHub](https://github.com/${username})`;
 
 return markdownText;
 }

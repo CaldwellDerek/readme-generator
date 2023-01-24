@@ -27,7 +27,7 @@ const questions = [
         type: "list",
         name: "License",
         message: "What is your name?",
-        choices: ["Apache License", "GNU General Public License", "MIT License"]
+        choices: ["Apache", "GNU", "MIT"]
     },
     {
         type: "input",
