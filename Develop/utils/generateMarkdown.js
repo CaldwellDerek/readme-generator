@@ -34,7 +34,8 @@ function generateMarkdown(
   email,
   questions
   ) {
-let markdownText = `
+let markdownText = 
+`${renderLicenseBadge(renderLicenseLink(license))}
 # ${title}
 
 ## Description
@@ -47,13 +48,13 @@ ${installation}
 ${usage}
 
 ## Contributing
-${license}
-
-## Tests
 ${contributing}
 
-## License
+## Tests
 ${tests}
+
+## License
+${license}
 
 ## Questions
 ${questions}
