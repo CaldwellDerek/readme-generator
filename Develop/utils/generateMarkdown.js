@@ -38,25 +38,28 @@ let markdownText =
 `${renderLicenseBadge(renderLicenseLink(license))}
 # ${title}
 
-## Description
+### Table of Contents
+1. [Description](#Description)
+
+### Description
 ${description}
 
-## Installation
+### Installation
 ${installation}
 
-## Usage
+### Usage
 ${usage}
 
-## Contributing
+### Contributing
 ${contributing}
 
-## Tests
+### Tests
 ${tests}
 
-## License
+### License
 ${license}
 
-## Questions
+### Questions
 ${questions}
 Email: ${email}
 [My GitHub](https://github.com/${username})`;
