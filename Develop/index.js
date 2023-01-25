@@ -48,11 +48,6 @@ const questions = [
         type: "input",
         name: "Email",
         message: "What is your email address?"
-    },
-    {
-        type: "input",
-        name: "Questions",
-        message: "What is the best way to reach you with any questions?"
     }
 ];
 
@@ -79,8 +74,7 @@ function init() {
             answers.Contributing,
             answers.Tests,
             answers.Username,
-            answers.Email,
-            answers.Questions
+            answers.Email
             );
         writeToFile("../Output/README.md", readmeText);
     })

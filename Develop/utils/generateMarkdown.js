@@ -31,14 +31,13 @@ function generateMarkdown(
   contributing,
   tests,
   username,
-  email,
-  questions
+  email
   ) {
 let markdownText = 
 `${renderLicenseBadge(renderLicenseLink(license))}
 # ${title}
 
-### Table of Contents
+## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
@@ -48,28 +47,28 @@ let markdownText =
 7. [Questions](#questions)
 
 
-### Description
+## Description
 ${description}
 
-### Installation
+## Installation
 ${installation}
 
-### Usage
+## Usage
 ${usage}
 
-### Contributing
+## Contributing
 ${contributing}
 
-### Tests
+## Tests
 ${tests}
 
-### License
-${license}
+## License
+This application is currently covered under the ${license} License. More information about this license can be viewed under the file named 'LICENSE' in the repository.
 
-### Questions
-${questions}
-Email: ${email}
-[My GitHub](https://github.com/${username})`;
+## Questions
+If you have any questions, feel free to reach out to me at my email: ${email}
+
+All of my work can be viewed at my GitHub profile: [${username}](https://github.com/${username})`;
 
 return markdownText;
 }
