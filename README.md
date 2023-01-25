@@ -50,6 +50,6 @@ The resulting product - a README.md file is created in the 'Output' directory.
 ![sc-4](./Media/sc-4.png)
 
 ### Videos
-A walkthrough video can be found at the following: [Video Walkthrough](https://drive.google.com/file/d/1nUp_MfwLaF4mMSj5s-ibqS5mSYzUhaSm/view)
+A walkthrough video can be found at the following: [Video Walkthrough](https://drive.google.com/file/d/1TXgCL4j8pWa6_WqICZ9__Jf3Ug9eXoa_/view)
 
 The walkthrough video is also saved in the Media directory of the repository.
